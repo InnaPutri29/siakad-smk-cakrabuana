@@ -48,6 +48,7 @@
 					redirect('tampilan_utama');
 
 				} else {
+					$this->session->set_flashdata('error', 'Username atau Password salah!');
 					redirect('auth');
 				}
 			} else {

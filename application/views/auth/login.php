@@ -44,6 +44,13 @@
         
         <p class="login-box-msg">Sign in to start your session</p>
 
+        <?php if ($this->session->flashdata('error')): ?>
+          <div class="alert alert-danger alert-dismissible">
+            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <?php echo $this->session->flashdata('error'); ?>
+          </div>
+        <?php endif; ?>
+
         <?php echo form_open('auth/check_login'); ?>
 
             <div class="form-group has-feedback">

@@ -148,7 +148,8 @@ INSERT INTO `tbl_guru` (`id_guru`, `nuptk`, `nama_guru`, `gender`, `username`, `
 (45, '00000000041', 'Toni Saputra, M.T.', 'P', 'toni', 'aefe34008e63f1eb205dc4c4b8322253'),
 (46, '00000000042', 'Rendi Pratama, S.Kom.', 'P', 'rendi', 'd209fc47646bba5e5fdc3d3bbaad4b9c'),
 (47, '00000000043', 'Rosi Paramita, S.Pd.', 'W', 'rosi', '45c6f0923e6a87454183b56c0935d253'),
-(48, '00000000044', 'Eva Agustina, S.Pd.', '', 'eva', '14bd76e02198410c078ab65227ea0794');
+(48, '00000000044', 'Eva Agustina, S.Pd.', '', 'eva', '14bd76e02198410c078ab65227ea0794'),
+(49, '00000000045', 'Lala', 'W', 'lala', 'e10adc3949ba59abbe56e057f20f883e');
 
 -- --------------------------------------------------------
 
@@ -1040,9 +1041,10 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`id_user`, `nama_lengkap`, `username`, `password`, `id_level_user`, `foto`) VALUES
-(1, 'admin', 'admin', '21232f297a57a5a743894a0e4a801fc3', 1, 'user-siluet2.jpg'),
-(7, 'inna', 'inna', '43c8086c5def203642833dd29fea16e7', 2, 'user-siluet4.jpg'),
-(8, 'Keuangan', 'tu', 'b6b4ce6df035dcfaa26f3bc32fb89e6a', 4, 'user-siluet5.jpg');
+(1, 'admin', 'admin', 'e10adc3949ba59abbe56e057f20f883e', 1, 'user-siluet2.jpg'),
+(7, 'inna', 'inna', 'e10adc3949ba59abbe56e057f20f883e', 2, 'user-siluet4.jpg'),
+(8, 'Hudan', 'hudan', 'e10adc3949ba59abbe56e057f20f883e', 4, 'user-siluet5.jpg'),
+(9, 'Cinta', 'cinta', 'e10adc3949ba59abbe56e057f20f883e', 5, 'user-siluet.jpg');
 
 -- --------------------------------------------------------
 

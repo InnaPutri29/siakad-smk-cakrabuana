@@ -1041,8 +1041,8 @@ CREATE TABLE `tbl_user` (
 --
 
 INSERT INTO `tbl_user` (`id_user`, `nama_lengkap`, `username`, `password`, `id_level_user`, `foto`) VALUES
-(1, 'admin', 'admin', 'e10adc3949ba59abbe56e057f20f883e', 1, 'user-siluet2.jpg'),
-(7, 'inna', 'inna', 'e10adc3949ba59abbe56e057f20f883e', 2, 'user-siluet4.jpg'),
+(1, 'Admin', 'admin', 'e10adc3949ba59abbe56e057f20f883e', 1, 'user-siluet2.jpg'),
+(7, 'Inna', 'inna', 'e10adc3949ba59abbe56e057f20f883e', 2, 'user-siluet4.jpg'),
 (8, 'Hudan', 'hudan', 'e10adc3949ba59abbe56e057f20f883e', 4, 'user-siluet5.jpg'),
 (9, 'Cinta', 'cinta', 'e10adc3949ba59abbe56e057f20f883e', 5, 'user-siluet.jpg');
 

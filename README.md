@@ -66,8 +66,8 @@ Buka browser dan akses: **`http://localhost:8080`**
 
 | Role / Level | Nama Lengkap | Username | Password |
 |---|---|---|---|
-| **Admin** | admin | `admin` | `123456` |
-| **Walikelas** | inna | `inna` | `123456` |
+| **Admin** | Admin | `admin` | `123456` |
+| **Walikelas** | Inna | `inna` | `123456` |
 | **Keuangan** | Hudan | `hudan` | `123456` |
 | **Guru** | Lala | `lala` | `123456` |
 | **Siswa** | Cinta | `cinta` | `123456` |
